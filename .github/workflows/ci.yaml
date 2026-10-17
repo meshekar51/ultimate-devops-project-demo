@@ -63,7 +63,7 @@ jobs:
     env:
       AWS_REGION: us-east-1
       AWS_ACCOUNT_ID: "136283260189"
-      AWS_ROLE_ARN: arn:aws:iam::136283260189:role/GitHubActionsECRPushRole
+      AWS_ROLE_ARN: arn:aws:iam::136283260189:role/GitHubECRPushPolicy
       TAG: ${{ github.run_id }}
 
     steps:
